@@ -21,11 +21,12 @@ html{
 
 
 #nav{
-    list-style-type: none;
+    
 }
 
 #nav li{
     display: inline;
+    list-style-type: none;
 }
 
 #nav li a{
@@ -34,6 +35,7 @@ html{
     line-height: 46px;
     padding: 0 24px;
     display: inline-block;
+    text-transform: uppercase;
 }
 
 #nav li:hover {
